@@ -1,0 +1,27 @@
+{
+  "name": "PitStop - Find Trusted Mechanics",
+  "short_name": "PitStop",
+  "description": "Book repairs, get instant bids, and track technicians in real-time.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#dc2626",
+  "background_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["automotive", "utilities"],
+  "lang": "en-CA"
+}

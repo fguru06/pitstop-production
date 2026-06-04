@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PitStop</title>
+  <script>
+    // Single Page Apps for GitHub Pages — https://github.com/rafgraph/spa-github-pages
+    // pathSegmentsToKeep = 0 for a custom root domain (pitstop.mediasurf.ca)
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.host + '/?/' +
+      l.pathname.slice(1).replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
+  </script>
+</head>
+<body></body>
+</html>
